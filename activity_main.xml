@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hd1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:text="Shri Krishna Sweets"
+        android:fontFamily="sans-serif-light"
+        android:background="#39ac73"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pic"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"
+        android:text="HOURS OF OPERATION: "
+        android:textColor="#0000cc"
+        android:paddingLeft="10dp"
+        android:textSize="22sp"
+        android:id="@+id/hop"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pic"
+        android:layout_toRightOf="@id/hop"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"
+        android:text="10AM-10PM"
+        android:textColor="#ff3385"
+        android:textSize="22sp"
+        android:id="@+id/num"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCATION: "
+        android:fontFamily="sans-serif-light"
+        android:textSize="22sp"
+        android:textColor="#0000cc"
+        android:layout_above="@id/hop"
+        android:id="@+id/loc"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/wts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="28dp"
+        android:layout_toRightOf="@id/loc"
+        android:fontFamily="sans-serif-light"
+        android:text="WEST TOWER STREET"
+        android:textColor="#ff3385"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT: "
+        android:fontFamily="sans-serif-light"
+        android:textSize="22sp"
+        android:textColor="#0000cc"
+        android:layout_above="@id/loc"
+        android:id="@+id/con"
+        android:paddingLeft="10dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/phnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="61dp"
+        android:layout_toRightOf="@id/con"
+        android:fontFamily="sans-serif-light"
+
+        android:text="9629482330"
+        android:textColor="#ff3385"
+        android:textSize="22sp" />
+</RelativeLayout>
